@@ -1,0 +1,120 @@
+@import "flaticon.css";
+
+.diets {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: space-between;
+    text-align: center;
+}
+.plan-info .date {
+    background: crimson;
+    color: snow;
+    position: relative;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0 1px 3px black;
+}
+.food {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 0px 10px;
+}
+.food > div {
+    position: relative;
+    color: dimgray;
+    background: #fafafa;
+    margin:  0 1vw 6vh 1vw;
+    padding: 0 5vw 3vh 5vw;
+    text-align: center;
+    box-shadow: 0 0px 5px black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    flex-grow: 1;
+}
+.food h3 {
+    color: snow;
+    background: rgba(76, 68, 68, 0.5);
+    padding: 2px 5px;
+    margin: auto;
+    box-shadow: 0 2px 3px lightgray;
+    border-radius: 0 0 3px 3px;
+    -webkit-border-radius: 0 0 3px 3px;
+    -moz-border-radius: 0 0 3px 3px;
+    -ms-border-radius: 0 0 3px 3px;
+    -o-border-radius: 0 0 3px 3px;
+}
+.food img{
+    box-shadow: 0 0 5px black;
+}
+.food ul {
+    margin-top: 2vh;
+
+}
+.food li {
+    font-weight: bolder;
+    font-size: 1.2em;
+    text-align: left;
+}
+.food .breakfast{
+    box-shadow: 0 0px 5px royalblue;
+}
+.food .breakfast h3{
+    background: royalblue;
+    box-shadow: 0 2px 3px blue;
+}
+.food .breakfast div{
+    color: royalblue;
+}
+.food .lunch{
+    box-shadow: 0 0px 5px darkorange;
+}
+.food .lunch h3{
+    background: darkorange;
+    box-shadow: 0 2px 3px orangered;
+}
+.food .lunch div{
+    color: darkorange;
+}
+.food .dinner{
+    box-shadow: 0 0px 5px forestgreen;
+}
+.food .dinner h3 {
+    background: forestgreen;
+    box-shadow: 0 2px 3px darkgreen;
+}
+.food .dinner div{
+    color: forestgreen;
+}
+.plan-info{
+    text-align: center;
+    color: gray;
+    width: 100%;
+    margin-top:2vh;
+    margin-bottom: 20vh;
+}
+.plan-info h1{
+    color: rebeccapurple;
+    display: inline-block;
+}
+
+.food~a{
+    background: #FF0080;
+    color: white;
+    padding: 5px 10px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px/20px;
+    box-shadow: 0 1px 3px black;
+    opacity: 0.4;
+    transition: all 0.5s;
+}
+.food~a:hover{
+    opacity: 1;
+}

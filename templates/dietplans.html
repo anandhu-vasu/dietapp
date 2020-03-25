@@ -1,0 +1,57 @@
+{% extends 'dashboard.html' %}
+
+{% block head %}
+    <link rel="stylesheet" href="/static/css/dietplans.css">
+{% endblock head %}
+
+{% block title %}
+    My Diet Plans
+{% endblock title %}
+
+{% block content %}
+
+{% if foodlist %}
+<h1>Diet Plans You Have...</h1>
+<div class="diets">
+    {% for nth in foodlist %}
+    <p class="date">{{ nth.date }}</p>
+    <div class="food">
+        <div class="breakfast">
+            <h3>BREAKFAST</h3>
+            <ul>
+
+                {% for food in nth.breakfast %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="lunch">
+            <h3>LUNCH</h3>
+            <ul>
+
+                {% for food in nth.lunch %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="dinner">
+            <h3>DINNER</h3>
+            <ul>
+
+                {% for food in nth.dinner %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+    {% endfor %}
+    
+</div>
+{% else %}
+<div class="no-data">You doesn't hava a diet plan. Create one at <a href="/form/">here</a> </div>
+{% endif %}
+
+{% endblock content %}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/static/css/dashboard.css" rel="stylesheet" type="text/css">
+    
+    {% block head %}
+    {% endblock head %}
+
+    <title>
+
+        {% block title %}
+        {% endblock title %}
+
+    </title>
+</head>
+<body>
+    <nav>
+        <div class="nav-item menu-button">
+            <span class="menu">
+                <div>{{ user.username }}</div>
+                <a href="/logout">Logout</a>
+            </span>
+            <span class='icon' >&#8285;</span>
+        </div>
+        <a href="/dashboard" class="nav-item">
+            <span class="text" >Home</span>
+            <span class='icon' >&#9750;</span>
+        </a>
+        <a href="/dashboard/dietform" class="nav-item">
+            <span class="text" >New Diet</span>
+            <span class='icon' >&#10010;<small>&#127869;</small></span>
+        </a>
+        <a href="/dashboard/currentdiet" class="nav-item">
+            <span class="text" >My Diet</span>
+            <span class='icon' >&#127869;</span>
+        </a>
+         <a href="/dashboard/details" class="nav-item">
+            <span class="text" >Details</span>
+            <span class='icon' >&#9783;</span>
+        </a>
+        <a href="/dashboard/weight-tracker" class="nav-item">
+            <span class="text" >Track Your Weight</span>
+            <span class='icon' >&#9906;</span>
+        </a>
+    </nav>
+    <main>
+        {% block content %}
+        {% endblock content %}
+    </main>
+</body>
+</html>

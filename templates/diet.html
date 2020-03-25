@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/diet.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Your Personalised Diet</h1>
+            <p> A govt of Kerala Initative </p>
+
+        </div>
+    </header>
+    <main>
+        <br>
+        <br>
+        <div class="diet">
+            <div class="food">
+                <h3>BREAKFAST</h3>
+                    <ul>
+                        
+                        {% for food in fooddiet.breakfast %}
+                            <li>{{food}}</li>
+                        {% endfor %}
+                            
+                    </ul>
+            </div>
+            <div class="food">
+                <h3>LUNCH</h3>
+                <p>
+                    <ul>
+                        
+                        {% for food in fooddiet.lunch %}
+                            <li>{{food}}</li>
+                        {% endfor %}
+                            
+                    </ul>
+                </p>
+            </div>
+            <div class="food">
+                <h3>DINNER</h3>
+                <p>
+                    <ul>
+                        
+                        {% for food in fooddiet.dinner %}
+                            <li>{{food}}</li>
+                        {% endfor %}
+                            
+                    </ul>
+                </p>
+            </div>
+        </div>
+        <div class="plot-bmi">
+            {% autoescape off %}
+                {{ bmi_indicator }}
+            {% endautoescape %}
+            <p style="text-align: center;">{{ bmi_status }}</p>
+        </div>
+        <br><br>
+        <div class="map">
+            <a href="https://www.google.com/maps/search/dietitian+near+me">
+           <p> Find dietitian near me </p><img src="/static/img/map.png" alt=""></a>
+
+        </div>
+    </main>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+{% extends "dashboard.html" %}
+{% block head %}
+    <link rel="stylesheet" href="/static/css/home.css">
+{% endblock head %}
+{% block title %}
+    Home
+{% endblock %}
+{% block content %}
+<div class="content">
+    <h1>Welcome, {{ user.first_name }} {{user.last_name}}</h1>
+    <p>We Recommends you to check your diet monthly.</p>
+
+    <div class="date">
+    {% if user.profile.all %}
+        {% if diff_date > 90 %}
+         You Hadn't checked for the diet for a long time<br>Last Checked {{ diff_date }} ago.
+        {% elif diff_date > 30%}
+        Your last check for the diet was {{ diff_date }} ago.<br>  We recommond to update your Current Diet
+        {% elif diff_date > 0 %}
+        Your last check for the diet was {{ diff_date }} ago.
+        {% else %}
+        Your Created to Diet Plan Today
+        {% endif %}
+    {% else %}
+    Experience our exclusive personilised dieting plans.<br>
+    Time to Create Your First Diet Plan.
+    {% endif %}
+    </div>
+</div>
+{% endblock %}

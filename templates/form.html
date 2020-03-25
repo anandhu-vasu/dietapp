@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/static/css/form.css">
+    <script src="/static/js/jquery.min.js"></script>
+    <script src="/static/js/form.js"></script>
+
+    <title>Find Your Personised Diet</title>
+</head>
+<body>
+    <main>
+    <header>
+        <div class="navbar">
+            <h1>Find Your Personised Diet</h1>
+            <p> A govt of Kerala Initative </p>
+        </div>
+    <h2>Give Us Some Information about you</h2>
+    </header>
+
+    <form name="dietform" action="/diet/" method="post" onsubmit="return onSubmit()">
+        {% csrf_token %}
+        <div class="info-container">
+            <div class="info-item" >
+                Gender: <br>
+                <input type="radio" name="gender" value="Male" checked> Male |
+                <input type="radio" name="gender" value="Female"> Female |
+                <input type="radio" name="gender" value="Other"> Other
+            </div>
+            <div class="info-item" >
+                Age <br>
+                <input type="text" name="age" maxlength="3" id="">
+            </div>
+            <div class="info-item">
+                Height <br>
+                <input type="text" name="height" maxlength="10"  id="">cm
+            </div>
+            <div class="info-item">
+                Weight <br>
+                <input type="text" name="weight" maxlength="10" id="">kg
+            </div>
+            <div class="info-item">
+                Diet Plan<br>
+                <select name="diet_plan" >
+                    <option>Lose Weight</option>
+                    <option>Balanced Diet</option>
+                    <option>Weight Gain</option>
+                </select>
+            </div>
+            <div class="info-item">
+                Vegetarian?<br>
+                <select name="veg" >
+                    <option value="Y">Yes</option>
+                    <option value="N">No</option>
+                </select>
+            </div>
+            <div class="info-item">
+                Occupation<br>
+                <select name="occupation" >
+                    <option>Physical Work</option>
+                    <option>Office Work</option>
+                </select>
+            </div>
+            <div class="info-item">
+                Do you have any Disease? <br>
+                <select name="disease" >
+                    <option>Nope</option>
+                    <option>Dibetics</option>
+                    <option>Cancer</option>
+                    <option>Stroke</option>
+                    <option>Cholesterol</option>
+                    <option>Cirrhosis</option>
+                    <option>High Blood Pressure</option>
+                    <option>Heart Disease</option>
+
+                </select>
+            </div>
+            <div class="info-item">
+                Do you have any Food Allergy? <br>
+                <select name="allergy">
+                    <option>Nope</option>
+                    <option>Fish</option>
+                    <option>Egg</option>
+                    <option>Milk</option>
+                    <option>Tree Nuts</option>
+                    <option>Soybeans</option>
+                       <option>Wheat</option>
+                       <option>Peanut</option>
+
+                </select>
+            </div>
+            <input type="submit" value="Submit" class="center">
+
+        </div>
+    </form>
+    </main>
+</body>
+</html>

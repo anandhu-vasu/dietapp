@@ -1,0 +1,23 @@
+{% extends "dashboard.html" %}
+
+{% block head %}
+
+
+
+{% endblock head %}
+
+{% block title %}
+
+    Weight Tracker
+
+{% endblock title %}
+
+{% block content %}
+
+    <div class="plot-weight">
+        {% autoescape off %}
+            {{ weight_plot }}
+        {% endautoescape %}
+    </div>
+
+{% endblock content %}

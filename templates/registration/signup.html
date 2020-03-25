@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/css/signup.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+    <script src="/static/js/jquery.min.js"></script>
+    <title>signup</title>
+</head>
+<body></body>
+    <div class="signup">
+        <form method='POST'>
+            {% csrf_token %}
+            {% for field in form %}
+                {{field.label}}
+                <br>
+                <div class="field">
+                    {{field}}
+                    {% if field.help_text %}
+                        <span class="help-icon">&#8520;</span><br>
+                        <div class="help_text" >
+                            {{ field.help_text }}
+                        </div>
+                    {% endif %}
+                </div>
+                <br>
+            {% endfor %}
+            <button type="submit">Sign up</button>
+{% for field in form %}
+        <p>{{field.errors}}</p>
+        {% endfor%}
+        </form>
+
+        {% if messages %}
+            <div class="messages">
+                {% for message in messages %}
+                <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+                {% endfor %}
+            </div>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+{% extends 'dashboard.html' %}
+
+{% block title %}
+    Details
+{% endblock title %}
+    
+{% block head %}
+    <link rel="stylesheet" href="/static/css/details.css">
+{% endblock head %}
+
+{% block content %}
+<div class="container">
+    {%if user.profile.all %}
+    <div class="plot-bmi">
+        {% autoescape off %}
+            {{bmi_indicator}}
+        {% endautoescape %}
+        <span style="background:{{bmi_color}};" >{{bmi_status}}</span>
+    </div>  
+    
+    <div class="info">
+        <div class="diet-plan">Diet Plan : {{last.diet_plan}}</div>
+        <div class="height">Height : <b>{{last.height}}</b> cm <span>
+        {% if diff.height > 0 %}
+            &#9650; {{diff.height}}
+        {% elif diff.height < 0 %}
+            &#9660; {{diff.height}}
+        {% endif %}
+            </span></div>
+        <div class="weight">Weight : <b>{{last.weight}}</b> kg <span>
+        {% if diff.weight > 0 %}
+            &#9650; {{diff.weight}}
+        {% elif diff.weight < 0 %}
+            &#9660; {{diff.weight}}
+        {% endif %}
+            </span></div>
+        <div class="occupation">Occupation : <b>{{last.occupation}}</b> </div>
+        
+        {% if last.disease != 'Nope' %}
+            <div class="disease">Disease : <b>{{last.disease}}</b></div>
+        {% endif %}
+            
+        
+        {% if last.allergy %}
+            <div class="allergy">Allergy : <b>{{last.allergy}}</b></div>
+        {% endif %}
+            
+        
+
+    </div>
+    {% else %}
+        <div class="no-data">You doesn't hava a diet plan. Create one at <a href="/form/">here</a> </div>
+    {% endif %}
+</div>
+
+{% endblock content %}
+    

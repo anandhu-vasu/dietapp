@@ -1,0 +1,57 @@
+{% extends "dashboard.html" %}
+    {% block title %}
+        Currrent Diet
+    {% endblock title %}
+    <link rel="stylesheet" href="/static/css/diet.css">
+    {% block head %}
+    <link rel="stylesheet" href="/static/css/mydiet.css">
+    {% endblock head %}
+
+    {% block content %}
+{% if user.profile.all %}
+    <div class="plan-info">
+        <h1>{{diet_status}}</h1><br>
+        {% if fooddiet.date %}
+        <span class='date'>{{ fooddiet.date }}</span>
+        {% endif %}
+    </div>
+    <div class="food">
+        <div class="breakfast">
+            <h3>BREAKFAST</h3>
+            <div class="flaticon-breakfast"></div>
+            <ul>
+
+                {% for food in fooddiet.breakfast %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="lunch">
+            <h3>LUNCH</h3>
+            <div class="flaticon-lunch"></div>
+            <ul>
+
+                {% for food in fooddiet.lunch %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+        <div class="dinner">
+            <h3>DINNER</h3>
+            <div class="flaticon-dinner"></div>
+            <ul>
+
+                {% for food in fooddiet.dinner %}
+                <li>{{food}}</li>
+                {% endfor %}
+
+            </ul>
+        </div>
+    </div>
+    <a href="/dashboard/dietplans">Previous Diets</a>
+    {% else %}
+        <div class="no-data">You doesn't hava a diet plan. Create one at <a href="/form/">here</a> </div>
+    {% endif %}
+    {% endblock content %}

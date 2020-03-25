@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/login.css">
+    <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <div class="navbar">
+            <h1>Find Your Diet </h1>
+            <p> A govt of Kerala Initative </p>
+        </div>
+    </header>
+    <main>
+        <div class="loginbox">
+            <form method="POST">
+                {% csrf_token %}
+                <br> <label id="txt" for="Name:">Username:</label><br>
+                <br> <input id="box" type="text" placeholder="enter name:" name="username"><br>
+                <br> <label for="password :" id="txt">Password:</label><br>
+                <br> <input type="password" id="box" placeholder="password" name="password"><br><br><br>
+                <p>Not have a account? Create new account <a href="/signup">here</a></p><br>
+                 <button type="submit">Login</button>
+            </form>
+            <br>
+            {% if messages %}
+                    <div class="messages">
+                        {% for message in messages %}
+                        <p{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</p>
+                        {% endfor %}
+                    </div>
+            {% endif %}
+        </div>
+    </main>
+</body>
+
+</html>
