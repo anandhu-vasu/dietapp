@@ -184,11 +184,11 @@ def diet(request):
             else:
                 pass
 
-        breakfast_model = joblib.load("static/ml_models/breakfast_model.sav")
+        breakfast_model = joblib.load("staticfiles/ml_models/breakfast_model.sav")
         [breakfast]=breakfast_model.predict(dataset.values)
-        lunch_model = joblib.load("static/ml_models/lunch_model.sav")
+        lunch_model = joblib.load("staticfiles/ml_models/lunch_model.sav")
         [lunch] = lunch_model.predict(dataset.values)
-        dinner_model = joblib.load("static/ml_models/dinner_model.sav")
+        dinner_model = joblib.load("staticfiles/ml_models/dinner_model.sav")
         [dinner] = dinner_model.predict(dataset.values)
 
         breakfast=re.sub(r'[*]\d+', '',breakfast)
