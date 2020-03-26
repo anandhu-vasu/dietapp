@@ -42,9 +42,6 @@ def signup(request):
             form.save()
             messages.success(request,"Account created successfully")
             return redirect('/login/')
-        else:
-            messages.error(request,"Account Creation Failed, Please Try again...")
-    form = SignUpForm()
     return render(request, 'registration/signup.html', {'form':form})
 
 

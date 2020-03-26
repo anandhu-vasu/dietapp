@@ -27,10 +27,22 @@
                 <br>
             {% endfor %}
             <button type="submit">Sign up</button>
-{% for field in form %}
-        <p>{{field.errors}}</p>
-        {% endfor%}
         </form>
+
+        {% if form.errors %}
+            {% for field in form %}
+                {% for error in field.errors %}
+                    <div class="messages">
+                        <p class="error">{{ error }}</p>
+                    </div>
+                {% endfor %}
+            {% endfor %}
+            {% for error in form.non_field_errors %}
+                <div class="messages">
+                    <p class="error">{{ error }}</p>
+                </div>
+            {% endfor %}
+        {% endif %}
 
         {% if messages %}
             <div class="messages">
