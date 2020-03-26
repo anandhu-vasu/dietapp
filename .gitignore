@@ -1,7 +1,6 @@
 .idea
 .history
 *.pyc
-*~
 /.vscode
 __pycache__
 myvenv
