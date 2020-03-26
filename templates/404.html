@@ -11,23 +11,42 @@
             background-image: url("{% static 'img/p.png' %}");
             background-position: inherit;
             background-size: cover;
+            height:100vh;
+            display:flex;
+            justify-content:center;
+            align-content:center;
         }
         body div{
-            position:absolute;
-            left:50%;
-            top:50%;
-            transform:translate(-50%,-50%);
+            -webkit-transform-origin: 50% 0;
+            transform-origin: 50% 0;
+            -webkit-animation: swinging 3.5s ease-in-out forwards infinite;
+            animation: swinging 3.5s ease-in-out forwards infinite;
             padding:20px;
             border-radius:5px;
             color:snow;
             background:black;
-            box-shadow:0 0 10px black;
+            box-shadow:0 0 5px black;
             text-align:center;
+            align-self: center;
+        }
+        @-webkit-keyframes swinging{
+            0%{-webkit-transform: rotate(10deg);}
+            50%{-webkit-transform: rotate(-5deg)}
+            100%{-webkit-transform: rotate(10deg);}
+        }
+        
+        @keyframes swinging{
+            0%{transform: rotate(10deg);}
+            50%{transform: rotate(-5deg)}
+            100%{transform: rotate(10deg);}
+        }
+        
+        .swingimage{
         }
     </style>
 </head>
 <body>
-    <div>
+    <div>&#9785;
         <h1>404</h1>
         <p>NOT FOUND</p>
     </div>

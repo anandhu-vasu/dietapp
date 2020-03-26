@@ -1,0 +1,22 @@
+.error{
+    display: inline-block;
+    background: rgba(255,99,71,0.5);
+    color: crimson;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-size: 0.75em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px red;
+    text-align: center;
+}
+.success{
+    display: inline-block;
+    background: rgba(34,139,34,0.5);
+    color: darkgreen;
+    font-family: 'Ubuntu', 'Lucida Grande', 'Lucida Sans Unicode', 'Geneva', 'Verdana', sans-serif;
+    font-size: 0.75em;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px green;
+    text-align: center;
+}

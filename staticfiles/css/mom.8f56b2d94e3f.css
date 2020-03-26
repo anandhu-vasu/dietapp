@@ -1,0 +1,86 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-image: url("../img/m.23e5ee45bdf2.png");
+    background-position: inherit;
+    background-size: cover;
+}
+
+header {
+    height: fit-content;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(238, 1, 80);
+    text-decoration-line: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    font-family: "Amaranth";
+}
+
+h1:hover {
+    color: rgba(250, 18, 88, 0.938);
+    transition: 0.4s ease-in-out;
+}
+
+.navbar p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 19px;
+}
+
+.navbar {
+    padding: 2%;
+    font-size: 30px;
+    font-family: "Amaranth";
+    color: rgb(238, 1, 80);
+    text-decoration: none;
+    text-emphasis: none;
+    background-color: silver;
+    background: transparent;
+    transition: 0.7s ease-in;
+}
+
+main {
+    height: 100vh;
+    font-family: "Ubuntu";
+    color: white;
+}
+h2 {
+    font-size: 25px;
+    font-family: "Ubuntu";
+    text-decoration: red underline;
+}
+.fbox {
+    display: flex;
+    flex-direction: row;
+    padding: 50px;
+}
+.fbox > div {
+    font-family: "Ubuntu";
+    font-size: 25px;
+    height: 400px;
+    width: 350px;
+    align-content: center;
+    list-style-type: none;
+
+    border-color: tomato;
+}
+
+body * {
+    animation: fadein 1s;
+}
+@keyframes fadein {
+    from {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 1;
+    }
+}

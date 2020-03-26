@@ -1,0 +1,498 @@
+Male,65,Physical Work,187.5714,109.8197,Lose Weight,Y,Diabetes,Milk
+Male,34,Physical Work,174.706,73.68895,Balanced Diet,N,Nope,Fish
+Male,40,Physical Work,188.2397,96.58435,Lose Weight,Y,High Blood Pressure,Tree Nuts
+Male,44,Physical Work,162.1967,56.6828,Balanced Diet,Y,Cholestrol,Peanuts
+Male,38,Physical Work,177.4998,93.6828,Lose Weight,N,Cholestrol,Wheat
+Male,48,Physical Work,170.8227,69.10432,Balanced Diet,Y,Nope,Eggs
+Male,52,Physical Work,174.7141,83.50326,Lose Weight,N,Heart Disease,Soybeans
+Male,49,Physical Work,173.6052,76.25888,Balanced Diet,Y,Stroke,Fish
+Male,50,Physical Work,170.2281,79.87197,Lose Weight,N,Cancer,Eggs
+Male,28,Physical Work,161.1795,71.0055,Lose Weight,N,High Blood Pressure,Wheat
+Male,56,Physical Work,180.8363,84.71864,Balanced Diet,N,Diabetes,Milk
+Male,53,Physical Work,181.9676,97.03849,Lose Weight,Y,Cholestrol,Nope
+Male,42,Physical Work,164.5065,75.87587,Lose Weight,Y,Heart Disease,Milk
+Male,51,Physical Work,175.979,86.00857,Lose Weight,Y,Cirrhosis,Peanuts
+Male,47,Physical Work,175.8791,84.64111,Balanced Diet,N,Cirrhosis,Eggs
+Male,29,Physical Work,171.8199,78.17287,Balanced Diet,N,Heart Disease,Soybeans
+Male,36,Physical Work,183.9425,88.99694,Balanced Diet,N,Stroke,Fish
+Male,46,Physical Work,162.4948,78.4891,Lose Weight,Y,Cholestrol,Wheat
+Male,52,Physical Work,176.8858,84.43672,Balanced Diet,Y,Heart Disease,Tree Nuts
+Male,50,Physical Work,172.5575,82.8217,Lose Weight,N,Cirrhosis,Nope
+Male,41,Physical Work,172.5042,79.04863,Balanced Diet,N,High Blood Pressure,Wheat
+Male,39,Physical Work,176.3762,89.77007,Lose Weight,Y,Diabetes,Tree Nuts
+Male,25,Physical Work,168.0188,67.7248,Balanced Diet,N,Nope,Nope
+Male,68,Physical Work,172.1967,63.68281,Balanced Diet,Y,High Blood Pressure,Wheat
+Male,35,Office Work,172.4487,73.55102,Balanced Diet,N,Nope,Fish
+Male,33,Office Work,173.0858,87.32417,Lose Weight,Y,Cholestrol,Nope
+Male,46,Office Work,175.4877,83.73357,Balanced Diet,N,Stroke,Eggs
+Male,53,Office Work,184.9141,93.9,Lose Weight,Y,Heart Disease,Soybeans
+Male,47,Office Work,171.25,79.54712,Lose Weight,N,Cirrhosis,Peanuts
+Male,40,Office Work,173.9809,70.07156,Balanced Diet,N,Nope,Nope
+Male,36,Office Work,174.29,85.12811,Lose Weight,N,Cholestrol,Soybeans
+Male,37,Office Work,188.0459,96.66124,Lose Weight,Y,Cirrhosis,Wheat
+Male,46,Office Work,181.6817,88.54464,Balanced Diet,N,Diabetes,Eggs
+Male,34,Office Work,175.7176,93.15336,Lose Weight,N,Cancer,Milk
+Male,57,Office Work,176.7261,92.69051,Lose Weight,N,Cancer,Eggs
+Male,66,Office Work,178.8184,87.5782,Balanced Diet,Y,Heart Disease,Nope
+Male,34,Office Work,175.4535,89.65966,Lose Weight,N,Cirrhosis,Tree Nuts
+Male,38,Office Work,170.6715,83.45018,Lose Weight,N,Stroke,Eggs
+Male,46,Office Work,167.1506,74.38873,Balanced Diet,N,Stroke,Peanuts
+Male,25,Office Work,163.3326,74.05104,Lose Weight,N,Cholestrol,Soybeans
+Male,56,Office Work,172.6548,78.14956,Balanced Diet,Y,High Blood Pressure,Milk
+Male,49,Office Work,183.3611,88.09661,Balanced Diet,Y,Heart Disease,Fish
+Male,31,Office Work,165.7867,76.55246,Lose Weight,Y,Cirrhosis,Peanuts
+Male,34,Office Work,167.8691,73.18182,Balanced Diet,Y,Stroke,Wheat
+Male,41,Office Work,171.4762,74.75577,Balanced Diet,Y,Heart Disease,Soybeans
+Male,41,Office Work,178.0662,85.77073,Balanced Diet,N,High Blood Pressure,Peanuts
+Male,29,Office Work,173.3597,84.92549,Lose Weight,N,Cancer,Wheat
+Male,51,Office Work,183.3187,94.91817,Lose Weight,N,Diabetes,Tree Nuts
+Male,54,Office Work,175.7168,87.17451,Lose Weight,N,Cirrhosis,Nope
+Male,65,Office Work,185.0907,95.94949,Lose Weight,N,Stroke,Soybeans
+Male,42,Physical Work,164.5478,75.18768,Lose Weight,N,Stroke,Peanuts
+Male,39,Physical Work,178.2662,91.28665,Lose Weight,N,Cholestrol,Eggs
+Male,43,Physical Work,173.9683,78.73448,Balanced Diet,Y,Heart Disease,Soybeans
+Male,54,Physical Work,171.0203,82.35909,Lose Weight,Y,Diabetes,Eggs
+Male,66,Physical Work,170.157,77.06092,Balanced Diet,Y,High Blood Pressure,Fish
+Male,32,Physical Work,168.9089,74.14253,Balanced Diet,Y,Nope,Milk
+Male,64,Physical Work,173.6168,86.12844,Lose Weight,Y,Cancer,Wheat
+Male,41,Physical Work,179.7671,87.22468,Balanced Diet,Y,Cancer,Tree Nuts
+Male,30,Physical Work,180.8884,89.9821,Lose Weight,Y,Cirrhosis,Wheat
+Male,46,Physical Work,177.8339,95.12503,Lose Weight,Y,Heart Disease,Wheat
+Male,58,Physical Work,181.3641,90.23695,Balanced Diet,Y,Stroke,Fish
+Male,35,Physical Work,176.6621,89.9281,Lose Weight,N,Diabetes,Soybeans
+Male,55,Physical Work,187.4991,88.66194,Balanced Diet,Y,Stroke,Eggs
+Male,43,Physical Work,170.1721,74.88426,Balanced Diet,N,Cirrhosis,Nope
+Male,38,Physical Work,181.4029,81.65821,Balanced Diet,N,Nope,Peanuts
+Male,46,Physical Work,165.8094,70.48369,Balanced Diet,N,Cancer,Tree Nuts
+Male,64,Physical Work,173.4164,53.7718,Weight Gain,Y,Cancer,Eggs
+Male,36,Physical Work,184.824,100.1878,Lose Weight,N,Cirrhosis,Wheat
+Male,64,Physical Work,172.9724,83.22395,Lose Weight,Y,Heart Disease,Fish
+Male,29,Physical Work,174.9976,89.1889,Lose Weight,N,Cirrhosis,Fish
+Male,37,Physical Work,175.9954,83.80641,Lose Weight,N,High Blood Pressure,Tree Nuts
+Male,46,Physical Work,179.129,94.21991,Balanced Diet,Y,High Blood Pressure,Fish
+Male,54,Physical Work,176.9459,80.44922,Lose Weight,N,Diabetes,Eggs
+Male,62,Physical Work,171.692,74.05103,Balanced Diet,Y,High Blood Pressure,Fish
+Male,69,Physical Work,184.1706,98.16308,Lose Weight,N,Heart Disease,Tree Nuts
+Male,58,Office Work,180.9826,92.91359,Balanced Diet,N,Stroke,Wheat
+Male,28,Office Work,182.3953,91.21794,Lose Weight,Y,Cirrhosis,Fish
+Male,34,Office Work,183.5027,100.2894,Balanced Diet,N,Cirrhosis,Fish
+Male,39,Office Work,168.9421,89.18824,Lose Weight,Y,Diabetes,Peanuts
+Male,41,Office Work,167.7137,76.56293,Lose Weight,N,Stroke,Milk
+Male,30,Office Work,171.646,82.37045,Balanced Diet,Y,Cancer,Fish
+Male,55,Office Work,173.3463,90.19104,Lose Weight,N,Cirrhosis,Soybeans
+Male,64,Office Work,187.5184,108.0142,Lose Weight,N,Stroke,Eggs
+Male,34,Office Work,173.4164,53.7718,Lose Weight,N,Nope,Fish
+Male,39,Office Work,167.5373,72.9505,Balanced Diet,Y,Cancer,Wheat
+Male,64,Office Work,180.5407,85.62573,Balanced Diet,N,Cirrhosis,Fish
+Male,58,Office Work,169.1543,94.58895,Balanced Diet,N,Heart Disease,Fish
+Male,62,Office Work,221.5534,87.81954,Lose Weight,N,Heart Disease,Fish
+Male,43,Office Work,173.3409,79.0458,Balanced Diet,N,Diabetes,Fish
+Male,74,Office Work,183.6847,89.60534,Lose Weight,Y,Stroke,Tree Nuts
+Male,66,Office Work,182.4112,91.53578,Balanced Diet,N,Cirrhosis,Peanuts
+Male,35,Office Work,165.7021,82.17944,Lose Weight,Y,Cancer,Soybeans
+Male,32,Office Work,179.4269,82.68361,Balanced Diet,N,High Blood Pressure,Eggs
+Male,43,Office Work,164.4191,80.60737,Balanced Diet,N,Diabetes,Milk
+Male,46,Office Work,170.443,74.89846,Balanced Diet,N,Diabetes,Fish
+Male,25,Office Work,165.3984,75.23557,Lose Weight,Y,Stroke,Wheat
+Male,34,Office Work,182.1211,87.66475,Balanced Diet,N,Cirrhosis,Eggs
+Male,55,Office Work,169.7555,82.03048,Lose Weight,N,Cirrhosis,Fish
+Male,36,Office Work,168.837,78.43927,Lose Weight,N,Stroke,Eggs
+Male,44,Office Work,176.3053,80.57166,Balanced Diet,N,Nope,Fish
+Male,29,Physical Work,177.9325,91.17171,Lose Weight,Y,Diabetes,Peanuts
+Male,36,Physical Work,169.5288,76.15386,Lose Weight,N,Nope,Fish
+Male,57,Physical Work,168.3368,70.09561,Balanced Diet,Y,Nope,Wheat
+Male,49,Physical Work,173.5543,80.80507,Lose Weight,Y,Diabetes,Soybeans
+Male,64,Physical Work,177.9928,83.50824,Lose Weight,N,Cancer,Fish
+Male,46,Physical Work,174.5818,81.35897,Balanced Diet,Y,Nope,Wheat
+Male,34,Physical Work,171.5924,71.98987,Lose Weight,N,Nope,Fish
+Male,66,Physical Work,168.2842,75.5926,Lose Weight,N,Heart Disease,Fish
+Male,67,Physical Work,175.7228,78.08059,Balanced Diet,N,Cancer,Eggs
+Male,39,Physical Work,171.7271,79.16134,Lose Weight,Y,Stroke,Tree Nuts
+Male,40,Physical Work,176.0036,85.23639,Balanced Diet,N,Diabetes,Soybeans
+Male,45,Physical Work,173.2043,91.47553,Balanced Diet,N,High Blood Pressure,Fish
+Male,36,Physical Work,181.882,93.03686,Lose Weight,N,Cirrhosis,Peanuts
+Male,37,Physical Work,175.76,81.12324,Balanced Diet,Y,Diabetes,Wheat
+Male,65,Physical Work,170.8454,74.46255,Balanced Diet,N,Nope,Milk
+Male,67,Physical Work,187.1604,101.3646,Balanced Diet,N,Heart Disease,Fish
+Male,36,Physical Work,176.6245,92.14307,Lose Weight,Y,Heart Disease,Soybeans
+Male,41,Physical Work,173.5114,85.98387,Lose Weight,N,Cancer,Wheat
+Male,39,Physical Work,172.057,80.88943,Lose Weight,N,Stroke,Fish
+Male,37,Physical Work,182.1326,101.3779,Lose Weight,N,Cirrhosis,Eggs
+Male,65,Physical Work,165.1967,60.68291,Lose Weight,N,Stroke,Fish
+Male,35,Physical Work,174.5518,81.93278,Lose Weight,Y,Diabetes,Peanuts
+Male,42,Physical Work,170.0513,74.65537,Balanced Diet,N,Nope,Fish
+Male,41,Physical Work,159.2758,68.08621,Lose Weight,Y,Cancer,Soybeans
+Male,36,Physical Work,183.5364,87.58126,Balanced Diet,N,High Blood Pressure,Fish
+Male,65,Office Work,180.108,91.65534,Balanced Diet,N,Cancer,Eggs
+Male,56,Office Work,171.729,81.66008,Lose Weight,N,Cirrhosis,Fish
+Male,58,Office Work,179.836,89.19635,Balanced Diet,Y,Heart Disease,Wheat
+Male,42,Office Work,176.0341,85.14845,Lose Weight,N,Cirrhosis,Soybeans
+Male,46,Office Work,168.257,77.94869,Lose Weight,N,Stroke,Milk
+Male,43,Office Work,171.4302,87.03162,Balanced Diet,N,Diabetes,Fish
+Male,59,Office Work,167.1479,75.29619,Lose Weight,Y,Heart Disease,Soybeans
+Male,43,Office Work,181.467,84.29088,Balanced Diet,N,Nope,Eggs
+Male,61,Office Work,173.8996,80.93994,Balanced Diet,N,Cancer,Fish
+Male,33,Office Work,162.5293,68.54449,Balanced Diet,N,Cirrhosis,Fish
+Male,29,Office Work,180.3448,95.30791,Balanced Diet,N,Cirrhosis,Peanuts
+Male,54,Office Work,173.0749,79.06764,Weight Gain,N,Stroke,Tree Nuts
+Male,65,Office Work,173.7243,81.66506,Lose Weight,N,Heart Disease,Soybeans
+Male,59,Office Work,172.9644,76.1572,Lose Weight,N,Nope,Fish
+Male,44,Office Work,173.0771,83.10228,Lose Weight,Y,High Blood Pressure,Wheat
+Male,56,Office Work,174.9046,76.9788,Lose Weight,Y,Diabetes,Peanuts
+Male,42,Office Work,168.0181,78.73798,Balanced Diet,N,Heart Disease,Eggs
+Male,35,Office Work,168.1633,82.12386,Lose Weight,N,Cancer,Eggs
+Male,31,Office Work,171.2776,83.31306,Balanced Diet,Y,Cirrhosis,Soybeans
+Male,65,Office Work,176.4566,93.51397,Lose Weight,N,Stroke,Fish
+Male,62,Office Work,179.1103,83.42697,Balanced Diet,N,Stroke,Peanuts
+Male,59,Office Work,181.1995,91.68734,Lose Weight,N,Cirrhosis,Fish
+Male,57,Office Work,180.3449,98.11852,Balanced Diet,N,Cancer,Fish
+Male,37,Office Work,168.154,72.36321,Lose Weight,Y,Nope,Wheat
+Male,58,Office Work,184.26,95.49274,Lose Weight,N,Diabetes,Fish
+Male,34,Physical Work,171.3976,81.09273,Balanced Diet,Y,Cirrhosis,Milk
+Male,36,Physical Work,165.99,66.61987,Lose Weight,N,Nope,Eggs
+Male,37,Physical Work,179.9439,88.9554,Lose Weight,N,High Blood Pressure,Fish
+Male,49,Physical Work,177.6437,77.25984,Lose Weight,N,Nope,Fish
+Male,46,Physical Work,164.4391,77.02294,Balanced Diet,Y,Heart Disease,Soybeans
+Male,56,Physical Work,176.0433,90.06393,Balanced Diet,N,Cancer,Tree Nuts
+Male,45,Physical Work,174.8497,81.6781,Balanced Diet,N,High Blood Pressure,Peanuts
+Male,63,Physical Work,157.3208,66.85771,Lose Weight,N,Cirrhosis,Fish
+Male,32,Physical Work,174.2271,80.35085,Balanced Diet,N,Stroke,Fish
+Male,44,Physical Work,165.6552,84.20238,Lose Weight,N,Heart Disease,Fish
+Male,27,Physical Work,180.1967,72.68291,Balanced Diet,Y,Heart Disease,Wheat
+Male,28,Physical Work,174.6222,77.10167,Lose Weight,N,Nope,Eggs
+Male,69,Physical Work,184.1237,90.15609,Balanced Diet,N,Cirrhosis,Fish
+Male,54,Physical Work,170.7742,92.32105,Balanced Diet,Y,Cirrhosis,Tree Nuts
+Male,33,Physical Work,170.8496,87.72082,Balanced Diet,N,High Blood Pressure,Fish
+Male,28,Physical Work,165.401,80.87327,Lose Weight,Y,Cancer,Milk
+Male,64,Physical Work,168.3076,73.90193,Balanced Diet,N,Stroke,Peanuts
+Male,33,Physical Work,171.9623,72.31608,Lose Weight,Y,Nope,Soybeans
+Male,35,Physical Work,166.448,78.1399,Lose Weight,N,Heart Disease,Fish
+Male,36,Physical Work,177.4672,91.63402,Balanced Diet,N,Cirrhosis,Fish
+Male,48,Physical Work,173.944,77.33996,Lose Weight,N,Cancer,Wheat
+Male,49,Physical Work,183.4235,93.24695,Lose Weight,N,Stroke,Fish
+Male,34,Physical Work,173.176,77.08365,Balanced Diet,N,Diabetes,Eggs
+Male,37,Physical Work,182.8323,90.99854,Lose Weight,N,Cirrhosis,Fish
+Male,68,Physical Work,167.8054,81.07939,Lose Weight,N,Stroke,Fish
+Male,69,Office Work,169.3067,76.27837,Balanced Diet,Y,Nope,Peanuts
+Male,45,Office Work,171.7025,80.70596,Lose Weight,N,Cancer,Fish
+Male,65,Office Work,173.3447,87.74804,Lose Weight,Y,Diabetes,Tree Nuts
+Male,48,Office Work,164.6139,73.72031,Balanced Diet,Y,High Blood Pressure,Soybeans
+Male,64,Office Work,171.4302,83.25626,Lose Weight,N,Cirrhosis,Fish
+Male,35,Office Work,173.1791,82.19947,Balanced Diet,N,Heart Disease,Fish
+Male,36,Office Work,176.6656,95.7358,Balanced Diet,N,Cirrhosis,Eggs
+Male,44,Office Work,168.6617,75.1681,Lose Weight,N,Nope,Wheat
+Male,56,Office Work,169.1441,89.0514,Balanced Diet,N,Cirrhosis,Fish
+Male,57,Office Work,182.7172,91.72908,Balanced Diet,N,Cancer,Peanuts
+Male,39,Office Work,173.4491,77.36778,Balanced Diet,N,Nope,Fish
+Male,64,Office Work,177.6868,91.68443,Lose Weight,N,Heart Disease,Wheat
+Male,42,Office Work,182.5019,87.79769,Lose Weight,N,Nope,Fish
+Male,57,Office Work,167.019,81.65448,Lose Weight,N,Diabetes,Soybeans
+Male,46,Office Work,170.2609,71.04643,Lose Weight,Y,Nope,Tree Nuts
+Male,37,Office Work,194.843,106.7061,Lose Weight,N,Stroke,Fish
+Male,64,Office Work,196.1967,86.68291,Lose Weight,Y,High Blood Pressure,Peanuts
+Male,44,Office Work,177.1112,92.56863,Balanced Diet,N,Cirrhosis,Nope
+Male,36,Office Work,184.91,99.07024,Lose Weight,N,Cancer,Eggs
+Male,37,Office Work,184.25,101.0909,Balanced Diet,N,Stroke,Milk
+Male,49,Office Work,183.6286,94.64759,Balanced Diet,Y,Heart Disease,Milk
+Male,64,Office Work,170.8234,82.07402,Lose Weight,Y,High Blood Pressure,Wheat
+Male,34,Office Work,192.8989,105.2938,Balanced Diet,Y,Cirrhosis,Peanuts
+Male,54,Office Work,168.4432,77.44961,Lose Weight,N,High Blood Pressure,Soybeans
+Male,68,Office Work,180.7364,85.47524,Lose Weight,Y,Nope,Milk
+Male,42,Physical Work,180.8282,89.01193,Balanced Diet,N,Stroke,Eggs
+Male,37,Physical Work,183.3817,97.43003,Lose Weight,Y,Stroke,Milk
+Male,68,Physical Work,190.8577,101.7524,Balanced Diet,N,Heart Disease,Wheat
+Male,61,Physical Work,163.6053,71.99505,Balanced Diet,N,Nope,Fish
+Male,57,Physical Work,164.4254,75.59151,Balanced Diet,N,Heart Disease,Nope
+Male,45,Physical Work,161.0731,72.70384,Balanced Diet,Y,Diabetes,Milk
+Male,49,Physical Work,172.3356,79.98238,Weight Gain,N,High Blood Pressure,Eggs
+Male,34,Physical Work,167.4667,79.21632,Lose Weight,N,Cancer,Soybeans
+Male,33,Physical Work,180.255,88.03355,Lose Weight,Y,Heart Disease,Milk
+Male,66,Physical Work,171.6551,84.89419,Lose Weight,Y,Stroke,Tree Nuts
+Male,57,Physical Work,174.2167,78.81249,Lose Weight,N,Nope,Peanuts
+Male,58,Physical Work,156.1967,44.68291,Balanced Diet,N,High Blood Pressure,Milk
+Male,64,Physical Work,183.882,94.63018,Lose Weight,N,Cancer,Wheat
+Male,35,Physical Work,179.885,93.53897,Balanced Diet,N,Cirrhosis,Nope
+Male,67,Physical Work,167.3944,78.34915,Lose Weight,Y,Diabetes,Nope
+Male,46,Physical Work,170.1967,50.68291,Balanced Diet,Y,Stroke,Milk
+Male,54,Physical Work,171.9095,80.46703,Lose Weight,N,Stroke,Eggs
+Male,59,Physical Work,170.5761,79.7436,Balanced Diet,Y,Heart Disease,Nope
+Male,68,Physical Work,182.3081,96.53225,Lose Weight,Y,Cancer,Soybeans
+Male,44,Physical Work,164.2497,75.80402,Lose Weight,Y,Cirrhosis,Wheat
+Male,37,Physical Work,170.1967,58.68291,Balanced Diet,Y,High Blood Pressure,Milk
+Male,29,Physical Work,169.6388,75.10578,Lose Weight,N,Cirrhosis,Milk
+Male,36,Physical Work,154.1967,52.68291,Lose Weight,N,Stroke,Fish
+Male,37,Physical Work,172.4305,79.29202,Lose Weight,N,Heart Disease,Fish
+Male,64,Physical Work,175.7009,88.63784,Balanced Diet,Y,Diabetes,Wheat
+Male,47,Office Work,185.1967,76.68291,Balanced Diet,N,Cancer,Eggs
+Male,32,Office Work,164.7337,71.88701,Balanced Diet,Y,Cirrhosis,Peanuts
+Male,34,Office Work,172.2656,76.76278,Lose Weight,N,Stroke,Fish
+Male,47,Office Work,161.1382,61.58777,Balanced Diet,N,High Blood Pressure,Nope
+Male,49,Office Work,159.1967,52.68291,Lose Weight,Y,High Blood Pressure,Tree Nuts
+Male,54,Office Work,169.4893,70.77839,Balanced Diet,N,Nope,Milk
+Male,56,Office Work,182.7995,91.49379,Lose Weight,Y,Diabetes,Soybeans
+Male,35,Office Work,193.0942,107.1104,Balanced Diet,N,Heart Disease,Wheat
+Male,38,Office Work,181.5493,88.70825,Balanced Diet,Y,Stroke,Milk
+Male,64,Office Work,171.1193,80.19282,Balanced Diet,N,Cirrhosis,Fish
+Male,54,Office Work,179.2103,90.10095,Lose Weight,Y,Cirrhosis,Milk
+Male,62,Office Work,177.4624,84.31548,Balanced Diet,N,Diabetes,Wheat
+Male,41,Office Work,172.5868,80.51589,Lose Weight,N,Cancer,Eggs
+Male,49,Office Work,188.2256,97.95491,Lose Weight,N,Heart Disease,Fish
+Male,67,Office Work,175.6863,84.90818,Balanced Diet,N,High Blood Pressure,Fish
+Male,34,Office Work,169.0554,77.9009,Lose Weight,Y,Stroke,Soybeans
+Male,26,Office Work,169.4221,78.46927,Lose Weight,Y,Cholesterol,Milk
+Male,54,Office Work,170.805,76.39925,Balanced Diet,N,Diabetes,Wheat
+Male,46,Office Work,175.3905,74.3745,Lose Weight,N,Nope,Nope
+Male,35,Office Work,179.5088,86.27064,Lose Weight,N,Cancer,Tree Nuts
+Male,68,Office Work,166.3674,71.21896,Balanced Diet,N,Nope,Tree Nuts
+Male,47,Office Work,165.5755,78.36334,Lose Weight,N,Diabetes,Milk
+Male,49,Office Work,171.6231,76.75505,Lose Weight,N,Nope,Peanuts
+Male,38,Office Work,187.4911,105.044,Balanced Diet,N,Heart Disease,Eggs
+Male,35,Office Work,181.8807,94.09172,Lose Weight,N,High Blood Pressure,Eggs
+Female,45,Physical Work,149.6333,46.3481,Balanced Diet,Y,Nope,Soybeans
+Female,64,Physical Work,165.6842,64.15284,Balanced Diet,N,Nope,Fish
+Female,67,Physical Work,160.9573,59.4928,Lose Weight,Y,Nope,Nope
+Female,48,Physical Work,163.7792,58.18987,Balanced Diet,Y,Heart Disease,Wheat
+Female,29,Physical Work,156.9545,58.92076,Balanced Diet,N,Heart Disease,Milk
+Female,37,Physical Work,167.5588,71.18815,Balanced Diet,Y,Nope,Wheat
+Female,46,Physical Work,159.64,52.19594,Lose Weight,N,Diabetes,Milk
+Female,54,Physical Work,166.7565,74.94768,Lose Weight,Y,Cholesterol,Nope
+Female,46,Physical Work,157.2012,50.70099,Lose Weight,N,Nope,Eggs
+Female,34,Physical Work,161.7418,47.28481,Lose Weight,N,Cancer,Soybeans
+Female,37,Physical Work,172.977,75.62535,Lose Weight,N,Diabetes,Tree Nuts
+Female,69,Physical Work,156.9692,48.23009,Lose Weight,N,Heart Disease,Peanuts
+Female,54,Physical Work,160.9635,58.16565,Balanced Diet,Y,High Blood Pressure,Nope
+Female,62,Physical Work,149.5956,46.16391,Lose Weight,N,Stroke,Eggs
+Female,38,Physical Work,148.4332,44.57945,Balanced Diet,Y,Heart Disease,Nope
+Female,46,Physical Work,154.4569,57.61962,Balanced Diet,Y,Cholesterol,Wheat
+Female,48,Physical Work,178.1268,68.66944,Lose Weight,N,Stroke,Fish
+Female,29,Physical Work,158.1339,52.57202,Balanced Diet,N,Cancer,Fish
+Female,47,Physical Work,156.8071,48.97156,Lose Weight,N,Heart Disease,Eggs
+Female,41,Physical Work,160.1713,66.09783,Lose Weight,N,High Blood Pressure,Soybeans
+Female,31,Physical Work,158.2086,63.34331,Balanced Diet,N,Cirrhosis,Nope
+Female,29,Physical Work,179.1967,73.68291,Lose Weight,Y,Cancer,Tree Nuts
+Female,34,Physical Work,168.5227,71.45096,Balanced Diet,N,Diabetes,Milk
+Female,65,Physical Work,165.9144,65.84697,Balanced Diet,Y,Stroke,Nope
+Female,46,Physical Work,167.9038,67.48491,Balanced Diet,N,Cancer,Milk
+Female,49,Office Work,163.899,60.23711,Balanced Diet,Y,Heart Disease,Soybeans
+Female,34,Office Work,143.6319,38.53194,Weight Gain,N,Cholesterol,Wheat
+Female,37,Office Work,159.3578,62.89281,Lose Weight,N,High Blood Pressure,Eggs
+Female,51,Office Work,156.4264,62.39108,Lose Weight,N,Stroke,Peanuts
+Female,68,Office Work,157.542,56.57019,Lose Weight,Y,Nope,Nope
+Female,37,Office Work,165.8908,63.68108,Lose Weight,N,Diabetes,Milk
+Female,65,Office Work,155.4606,49.16371,Balanced Diet,Y,Cancer,Tree Nuts
+Female,32,Office Work,170.2437,68.19951,Lose Weight,N,Stroke,Fish
+Female,47,Office Work,152.9364,54.04304,Balanced Diet,Y,High Blood Pressure,Soybeans
+Female,54,Office Work,162.4075,63.33116,Lose Weight,N,Diabetes,Fish
+Female,59,Office Work,160.9288,57.02841,Balanced Diet,Y,High Blood Pressure,Milk
+Female,60,Office Work,161.7601,60.05647,Lose Weight,Y,Cancer,Milk
+Female,28,Office Work,153.1337,59.22013,Balanced Diet,N,Heart Disease,Eggs
+Female,34,Office Work,161.0545,58.49717,Lose Weight,N,Nope,Fish
+Female,62,Office Work,154.0043,49.81274,Lose Weight,N,Cholesterol,Wheat
+Female,57,Office Work,171.1289,66.29458,Balanced Diet,N,Diabetes,Soybeans
+Female,39,Office Work,169.8568,72.12026,Lose Weight,N,Stroke,Fish
+Female,46,Office Work,152.5198,52.03,Lose Weight,Y,Nope,Milk
+Female,60,Office Work,162.9524,60.44481,Lose Weight,Y,Stroke,Nope
+Female,64,Office Work,161.1926,58.54374,Balanced Diet,Y,Diabetes,Nope
+Female,57,Office Work,170.7994,69.94395,Balanced Diet,N,Cancer,Eggs
+Female,42,Office Work,168.1825,63.10651,Balanced Diet,N,Heart Disease,Milk
+Female,28,Office Work,164.3198,62.96109,Lose Weight,N,Cholesterol,Tree Nuts
+Female,34,Office Work,150.1967,47.6821,Balanced Diet,Y,High Blood Pressure,Soybeans
+Female,26,Office Work,167.2676,67.69981,Lose Weight,Y,Stroke,Peanuts
+Female,68,Physical Work,165.2258,65.86339,Balanced Diet,N,Cholesterol,Fish
+Female,44,Physical Work,163.7731,65.66576,Lose Weight,N,Cirrhosis,Fish
+Female,53,Physical Work,158.8518,63.3233,Balanced Diet,N,Nope,Nope
+Female,62,Physical Work,156.4544,59.00963,Balanced Diet,N,Heart Disease,Nope
+Female,51,Physical Work,154.8138,53.30986,Balanced Diet,Y,Diabetes,Wheat
+Female,50,Physical Work,161.4252,62.4214,Lose Weight,N,Cancer,Eggs
+Female,74,Physical Work,158.1108,62.82562,Balanced Diet,Y,Nope,Soybeans
+Female,64,Physical Work,168.1241,64.13747,Lose Weight,N,Heart Disease,Milk
+Female,34,Physical Work,158.8721,56.16564,Lose Weight,Y,Nope,Tree Nuts
+Female,56,Physical Work,169.2398,66.1,Balanced Diet,N,High Blood Pressure,Soybeans
+Female,48,Physical Work,151.4057,49.85517,Lose Weight,N,Diabetes,Fish
+Female,53,Physical Work,163.8132,72.39305,Lose Weight,N,Diabetes,Eggs
+Female,51,Physical Work,164.9389,69.19839,Balanced Diet,N,Heart Disease,Fish
+Female,27,Physical Work,155.9033,64.20806,Lose Weight,N,Stroke,Milk
+Female,40,Physical Work,167.8198,67.07956,Lose Weight,Y,Cancer,Nope
+Female,56,Physical Work,162.3427,59.70722,Balanced Diet,Y,Cholesterol,Nope
+Female,30,Physical Work,176.8343,71.28878,Lose Weight,N,Cirrhosis,Fish
+Female,26,Physical Work,170.6411,71.25568,Lose Weight,N,Cancer,Eggs
+Female,65,Physical Work,161.0336,65.30356,Balanced Diet,N,Cirrhosis,Soybeans
+Female,33,Physical Work,155.4815,44.8132,Lose Weight,N,Diabetes,Fish
+Female,57,Physical Work,151.5563,57.36529,Balanced Diet,N,Cancer,Milk
+Female,49,Physical Work,162.7871,60.9318,Balanced Diet,N,Cirrhosis,Eggs
+Female,63,Physical Work,153.8683,53.68224,Lose Weight,Y,Cholesterol,Peanuts
+Female,34,Physical Work,157.7718,65.98316,Balanced Diet,N,Stroke,Soybeans
+Female,31,Physical Work,142.645,41.23013,Balanced Diet,Y,Cholesterol,Nope
+Female,32,Office Work,171.3212,77.55698,Balanced Diet,N,High Blood Pressure,Eggs
+Female,60,Office Work,165.2655,70.89806,Lose Weight,N,Cirrhosis,Wheat
+Female,40,Office Work,166.4433,63.10125,Lose Weight,N,Cholesterol,Fish
+Female,40,Office Work,160.4001,56.38397,Lose Weight,Y,Cirrhosis,Peanuts
+Female,46,Office Work,149.5407,46.72889,Lose Weight,N,Cancer,Milk
+Female,56,Office Work,167.6939,64.31194,Lose Weight,N,Stroke,Fish
+Female,45,Office Work,156.2737,60.62194,Lose Weight,Y,Diabetes,Soybeans
+Female,37,Office Work,161.5041,60.46799,Balanced Diet,N,Diabetes,Fish
+Female,34,Office Work,151.8584,53.07481,Lose Weight,Y,Nope,Milk
+Female,54,Office Work,170.559,63.35698,Balanced Diet,N,Cholesterol,Eggs
+Female,37,Office Work,158.3006,57.71743,Balanced Diet,Y,Cirrhosis,Nope
+Female,49,Office Work,165.4751,61.13656,Lose Weight,N,Cancer,Soybeans
+Female,46,Office Work,179.3966,77.2474,Balanced Diet,N,Stroke,Tree Nuts
+Female,51,Office Work,171.1641,74.86127,Lose Weight,N,Cirrhosis,Fish
+Female,50,Office Work,173.0512,80.46702,Lose Weight,N,Heart Disease,Peanuts
+Female,47,Office Work,161.2607,56.32,Balanced Diet,N,Cirrhosis,Fish
+Female,30,Office Work,155.3542,48.68489,Lose Weight,N,Diabetes,Soybeans
+Female,49,Office Work,179.6038,73.25902,Balanced Diet,N,High Blood Pressure,Milk
+Female,45,Office Work,165.6305,62.51718,Balanced Diet,N,Cirrhosis,Eggs
+Female,47,Office Work,155.8531,56.03274,Balanced Diet,Y,Stroke,Nope
+Female,33,Office Work,157.6622,64.76928,Balanced Diet,N,Cancer,Milk
+Female,27,Office Work,166.1284,65.38778,Weight Gain,N,Cholesterol,Eggs
+Female,54,Office Work,157.0314,50.84885,Lose Weight,N,Cirrhosis,Tree Nuts
+Female,47,Office Work,159.8859,56.15264,Lose Weight,Y,Nope,Wheat
+Female,30,Office Work,163.4821,60.4655,Lose Weight,N,Stroke,Fish
+Female,37,Physical Work,162.6579,66.84722,Lose Weight,Y,Stroke,Soybeans
+Female,49,Physical Work,177.2624,76.0167,Balanced Diet,N,Diabetes,Milk
+Female,57,Physical Work,159.5688,57.57448,Lose Weight,Y,Heart Disease,Peanuts
+Female,56,Physical Work,182.8578,80.52416,Balanced Diet,N,Cholesterol,Nope
+Female,37,Physical Work,157.465,61.02545,Lose Weight,Y,High Blood Pressure,Soybeans
+Female,44,Physical Work,167.1437,63.32538,Balanced Diet,N,Cancer,Nope
+Female,30,Physical Work,152.4777,47.44179,Lose Weight,N,Cirrhosis,Eggs
+Female,67,Physical Work,163.8271,66.34091,Balanced Diet,N,Diabetes,Fish
+Female,49,Physical Work,157.6061,54.41888,Lose Weight,N,Stroke,Eggs
+Female,54,Physical Work,164.0027,62.44051,Lose Weight,N,Heart Disease,Milk
+Female,66,Physical Work,153.681,52.83742,Balanced Diet,N,Stroke,Fish
+Female,49,Physical Work,155.4847,58.23299,Lose Weight,N,Diabetes,Soybeans
+Female,31,Physical Work,167.0827,66.67278,Lose Weight,Y,Cancer,Milk
+Female,29,Physical Work,154.1127,52.57549,Lose Weight,N,Cirrhosis,Nope
+Female,63,Physical Work,164.5662,56.37433,Balanced Diet,N,Cirrhosis,Fish
+Female,62,Physical Work,160.0113,59.47595,Balanced Diet,Y,Heart Disease,Tree Nuts
+Female,38,Physical Work,162.0761,64.65949,Balanced Diet,N,Diabetes,Peanuts
+Female,46,Physical Work,158.1909,60.49789,Lose Weight,Y,Stroke,Wheat
+Female,48,Physical Work,156.746,49.04508,Balanced Diet,N,Cholesterol,Fish
+Female,29,Physical Work,164.6495,64.78446,Lose Weight,N,Cirrhosis,Eggs
+Female,47,Physical Work,166.4591,66.34554,Balanced Diet,N,High Blood Pressure,Nope
+Female,41,Physical Work,155.7951,57.81319,Lose Weight,N,Heart Disease,Soybeans
+Female,31,Physical Work,145.0438,42.45187,Balanced Diet,Y,Cancer,Milk
+Female,29,Physical Work,143.372,43.87467,Balanced Diet,N,Stroke,Nope
+Female,34,Physical Work,154.4715,60.00737,Balanced Diet,Y,Diabetes,Tree Nuts
+Female,65,Physical Work,156.1206,62.33382,Lose Weight,N,Cirrhosis,Nope
+Female,46,Physical Work,157.2871,57.39999,Balanced Diet,N,Stroke,Fish
+Female,49,Physical Work,169.3281,69.89263,Lose Weight,N,Cancer,Eggs
+Female,34,Physical Work,165.31,64.07091,Lose Weight,Y,Cirrhosis,Nope
+Female,37,Physical Work,161.2726,72.89179,Balanced Diet,N,Heart Disease,Eggs
+Female,51,Physical Work,164.0593,63.63994,Lose Weight,Y,Stroke,Soybeans
+Female,68,Physical Work,155.0018,60.92395,Lose Weight,N,Nope,Nope
+Female,37,Physical Work,158.1076,53.22257,Balanced Diet,N,Diabetes,Wheat
+Female,65,Physical Work,165.2527,64.0073,Lose Weight,N,High Blood Pressure,Milk
+Female,32,Physical Work,160.5784,64.90993,Lose Weight,N,Cancer,Nope
+Female,47,Physical Work,160.6017,59.58211,Balanced Diet,Y,Cirrhosis,Soybeans
+Female,54,Physical Work,160.7285,61.21173,Lose Weight,N,Stroke,Fish
+Female,59,Physical Work,167.7687,63.0635,Lose Weight,Y,Cholesterol,Soybeans
+Female,60,Physical Work,160.1158,57.68996,Balanced Diet,Y,Nope,Tree Nuts
+Female,28,Physical Work,159.0753,55.26304,Lose Weight,Y,Cirrhosis,Nope
+Female,34,Physical Work,156.6382,50.6753,Balanced Diet,N,Cirrhosis,Eggs
+Female,62,Physical Work,161.1479,57.43446,Balanced Diet,Y,Stroke,Nope
+Female,57,Physical Work,157.6563,55.37042,Lose Weight,Y,Heart Disease,Nope
+Female,39,Physical Work,172.7373,73.16878,Balanced Diet,N,Diabetes,Fish
+Female,46,Physical Work,168.9988,74.25692,Balanced Diet,N,Diabetes,Milk
+Female,60,Physical Work,158.8766,53.98205,Balanced Diet,N,Nope,Fish
+Female,64,Physical Work,165.5629,60.61536,Lose Weight,N,Cirrhosis,Wheat
+Female,57,Physical Work,165.6763,55.92072,Lose Weight,N,Stroke,Eggs
+Female,42,Physical Work,162.4453,55.33744,Lose Weight,N,Cholesterol,Nope
+Female,28,Physical Work,162.1181,67.81358,Lose Weight,N,High Blood Pressure,Nope
+Female,34,Office Work,162.7917,59.46138,Lose Weight,Y,Diabetes,Soybeans
+Female,26,Office Work,151.4999,52.91455,Lose Weight,Y,Diabetes,Tree Nuts
+Female,68,Office Work,163.32,63.60849,Balanced Diet,N,Cirrhosis,Fish
+Female,44,Office Work,168.0404,65.24397,Lose Weight,N,Heart Disease,Eggs
+Female,53,Office Work,150.0853,58.68976,Balanced Diet,N,Diabetes,Fish
+Female,62,Office Work,162.4623,63.90603,Balanced Diet,Y,Nope,Wheat
+Female,51,Office Work,158.5139,54.61772,Lose Weight,N,Stroke,Fish
+Female,50,Office Work,166.2704,64.41585,Balanced Diet,N,Stroke,Milk
+Female,74,Office Work,165.0542,71.65443,Lose Weight,N,Cirrhosis,Soybeans
+Female,64,Office Work,157.0168,55.21321,Lose Weight,N,Diabetes,Wheat
+Female,34,Office Work,162.1181,69.84613,Balanced Diet,N,Heart Disease,Nope
+Female,56,Office Work,163.2478,60.89902,Lose Weight,N,Cancer,Milk
+Female,48,Office Work,147.2233,50.95105,Balanced Diet,N,Cirrhosis,Tree Nuts
+Female,53,Office Work,148.837,47.57805,Balanced Diet,N,High Blood Pressure,Eggs
+Female,51,Office Work,158.5744,58.00542,Balanced Diet,Y,Cholesterol,Soybeans
+Female,27,Office Work,155.4949,54.15104,Balanced Diet,Y,Cancer,Nope
+Female,40,Office Work,156.7342,50.3592,Weight Gain,N,Cirrhosis,Eggs
+Female,56,Office Work,171.216,72.51661,Lose Weight,N,Cholesterol,Fish
+Female,30,Office Work,160.1267,55.42761,Lose Weight,N,Cancer,Milk
+Female,26,Office Work,162.351,61.60657,Lose Weight,Y,Stroke,Nope
+Female,65,Office Work,168.2993,63.03333,Lose Weight,N,Diabetes,Wheat
+Female,33,Office Work,154.857,51.66304,Balanced Diet,N,Cirrhosis,Soybeans
+Female,57,Office Work,158.4524,56.90758,Lose Weight,Y,Heart Disease,Nope
+Female,49,Office Work,167.0121,72.77168,Balanced Diet,Y,Cancer,Peanuts
+Female,63,Office Work,168.2816,68.14379,Lose Weight,N,Cirrhosis,Eggs
+Female,34,Physical Work,167.5225,74.27309,Balanced Diet,N,High Blood Pressure,Tree Nuts
+Female,31,Physical Work,157.5521,46.88686,Lose Weight,N,Stroke,Nope
+Female,32,Physical Work,156.2623,57.83536,Balanced Diet,N,Diabetes,Fish
+Female,60,Physical Work,165.4648,64.27519,Lose Weight,Y,Heart Disease,Nope
+Female,40,Physical Work,165.7968,61.97486,Lose Weight,N,Cirrhosis,Nope
+Female,40,Physical Work,145.9041,47.43693,Balanced Diet,Y,Nope,Milk
+Female,46,Physical Work,163.9979,58.91806,Lose Weight,N,Diabetes,Wheat
+Female,56,Physical Work,145.5773,43.19313,Lose Weight,N,Cancer,Eggs
+Female,45,Physical Work,157.0716,50.12803,Lose Weight,N,Cholesterol,Soybeans
+Female,37,Physical Work,161.5893,55.65602,Balanced Diet,Y,Stroke,Nope
+Female,34,Physical Work,163.7923,68.28292,Balanced Diet,N,Heart Disease,Tree Nuts
+Female,54,Physical Work,167.93,72.16509,Balanced Diet,N,Cirrhosis,Eggs
+Female,37,Physical Work,156.638,51.27276,Lose Weight,Y,High Blood Pressure,Wheat
+Female,49,Physical Work,160.8064,65.38395,Balanced Diet,N,Cirrhosis,Fish
+Female,46,Physical Work,154.5476,61.72423,Lose Weight,N,Heart Disease,Nope
+Female,51,Physical Work,153.5364,53.41482,Balanced Diet,N,Cancer,Milk
+Female,50,Physical Work,149.5085,41.19077,Lose Weight,Y,Cholesterol,Peanuts
+Female,47,Physical Work,169.072,71.20181,Balanced Diet,Y,Stroke,Nope
+Female,30,Physical Work,168.518,71.86145,Balanced Diet,Y,Cholesterol,Soybeans
+Female,49,Physical Work,159.2489,61.01577,Balanced Diet,N,Cirrhosis,Nope
+Female,45,Physical Work,160.3092,56.66761,Lose Weight,Y,Diabetes,Tree Nuts
+Female,47,Physical Work,156.8274,50.8317,Balanced Diet,N,Heart Disease,Fish
+Female,33,Physical Work,156.5402,50.4723,Lose Weight,Y,Stroke,Nope
+Female,27,Physical Work,156.2761,56.69663,Lose Weight,Y,Cancer,Nope
+Female,54,Physical Work,163.1556,59.11972,Balanced Diet,N,Cirrhosis,Eggs
+Female,47,Office Work,156.8692,59.48409,Lose Weight,Y,High Blood Pressure,Wheat
+Female,30,Office Work,164.6687,67.63888,Lose Weight,Y,Cirrhosis,Soybeans
+Female,37,Office Work,169.568,68.50012,Balanced Diet,Y,Cholesterol,Milk
+Female,49,Office Work,170.6645,80.10054,Lose Weight,N,Heart Disease,Eggs
+Female,57,Office Work,159.9064,68.36446,Lose Weight,N,Stroke,Nope
+Female,56,Office Work,163.2617,55.97766,Balanced Diet,N,Nope,Nope
+Female,37,Office Work,154.3791,50.33954,Lose Weight,Y,Cancer,Nope
+Female,44,Office Work,153.9964,59.47392,Lose Weight,N,Cirrhosis,Fish
+Female,30,Office Work,149.9313,50.77243,Balanced Diet,N,Cirrhosis,Tree Nuts
+Female,67,Office Work,160.7973,60.98299,Lose Weight,N,Diabetes,Nope
+Female,49,Office Work,156.5147,51.37925,Balanced Diet,N,Diabetes,Nope
+Female,54,Office Work,155.4409,52.6215,Balanced Diet,Y,Stroke,Peanuts
+Female,66,Office Work,160.5756,63.74517,Lose Weight,N,Cirrhosis,Eggs
+Female,49,Office Work,157.429,54.43952,Balanced Diet,Y,Cholesterol,Wheat
+Female,31,Office Work,144.235,38.13286,Balanced Diet,Y,Cancer,Nope
+Female,29,Office Work,159.5277,52.99693,Balanced Diet,Y,Cirrhosis,Milk
+Female,63,Office Work,149.2282,44.36601,Lose Weight,Y,High Blood Pressure,Milk
+Female,42,Office Work,155.5401,50.62223,Lose Weight,Y,Stroke,Soybeans
+Female,37,Office Work,160.8323,54.16946,Lose Weight,N,Cholesterol,Fish
+Female,68,Office Work,169.95,68.83225,Lose Weight,N,Blood Sugar,Nope
+Female,61,Office Work,173.4229,80.3967,Lose Weight,N,Cirrhosis,Eggs
+Female,57,Office Work,148.9676,45.50635,Lose Weight,Y,Cancer,Tree Nuts
+Female,45,Office Work,162.7197,64.86274,Balanced Diet,N,Stroke,Milk
+Female,49,Office Work,163.8128,64.348,Lose Weight,N,Nope,Nope
+Female,34,Office Work,163.3697,61.79535,Balanced Diet,N,Cirrhosis,Nope
+Female,33,Office Work,169.0053,73.55913,Balanced Diet,N,Diabetes,Nope
+Female,66,Physical Work,159.1922,66.97313,Lose Weight,N,Stroke,Eggs
+Female,57,Physical Work,163.3635,61.36002,Balanced Diet,N,Cholesterol,Soybeans
+Female,58,Physical Work,147.4763,51.32957,Lose Weight,N,Cancer,Peanuts
+Female,64,Physical Work,149.6733,47.81978,Lose Weight,N,Nope,Wheat
+Female,35,Physical Work,168.2885,67.56994,Balanced Diet,N,High Blood Pressure,Fish
+Female,67,Physical Work,166.7907,59.62825,Lose Weight,Y,Blood Sugar,Milk
+Female,46,Physical Work,155.8279,54.70702,Balanced Diet,Y,Stroke,Soybeans
+Female,54,Physical Work,164.0506,66.81944,Balanced Diet,Y,Cancer,Peanuts
+Female,59,Physical Work,166.2825,68.313,Balanced Diet,N,Cirrhosis,Eggs
+Female,68,Physical Work,160.0557,58.65181,Balanced Diet,N,Cirrhosis,Nope
+Female,44,Physical Work,164.7255,63.66379,Weight Gain,Y,Diabetes,Tree Nuts
+Female,37,Physical Work,160.482,65.68699,Lose Weight,N,Nope,Nope
+Female,29,Physical Work,157.5495,59.63683,Lose Weight,N,Stroke,Eggs
+Female,36,Physical Work,164.518,63.1217,Lose Weight,Y,High Blood Pressure,Soybeans
+Female,37,Physical Work,156.0995,54.27502,Lose Weight,N,Cholesterol,Nope
+Female,64,Physical Work,165.7893,65.94127,Balanced Diet,Y,Cirrhosis,Milk
+Female,32,Physical Work,159.0012,54.09236,Lose Weight,N,Blood Sugar,Fish
+Female,34,Physical Work,162.179,67.9919,Balanced Diet,N,Nope,Peanuts
+Female,47,Physical Work,165.854,68.21516,Lose Weight,Y,Stroke,Wheat
+Female,49,Physical Work,165.4278,67.08871,Balanced Diet,Y,Blood Sugar,Milk
+Female,54,Physical Work,163.8057,71.3311,Lose Weight,N,High Blood Pressure,Peanuts
+Female,56,Physical Work,158.641,56.49418,Balanced Diet,N,Diabetes,Eggs

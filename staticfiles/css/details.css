@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: stretch;
+    height: 100vh;
+}
+
+.container > div {
+    box-shadow: 0 0 5px black;
+    margin: 5px;
+}
+
+.plot-bmi {
+    max-width: 100vw;
+    text-align: center;
+}
+.plot-bmi > span {
+    color: white;
+    padding: 20px;
+    text-shadow: 0 0 2px black;
+    position: relative;
+}
+
+.info {
+    flex-grow: 1;
+    text-align: center;
+    font-size: x-large;
+    font-family: "Courier New", Courier, monospace;
+}
+
+.info div:not(.diet-plan) {
+    background: white;
+    padding: 15px 10px;
+    margin: 20px;
+    box-shadow: 0 0 3px black;
+    color: cornflowerblue;
+}
+
+.diet-plan {
+    background: forestgreen;
+    color: white;
+    padding: 5px;
+    margin: 0px 10vw;
+    font-size: x-large;
+}
