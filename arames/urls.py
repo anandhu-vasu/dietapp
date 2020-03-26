@@ -16,8 +16,8 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
-from django.conf.urls import handler404
 from dietapp import views
+from django.conf.urls import handler404
 
 urlpatterns = [
     path('', views.index, name='index'),
