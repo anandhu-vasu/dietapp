@@ -168,8 +168,14 @@ def diet(request):
         f.close()
 
         names = ['gender', 'age', 'occupation', 'height', 'weight', 'plan', 'veg', 'disease', 'allergy']
+        datacsv = "";
+        for name in names:
+            datacsv += data[name] + ','
+        datacsv = StringIO(datacsv)
         transet = read_csv('dietapp/food.csv', names=names)
-        dataset=read_csv('data1.csv',names=names)
+        dataset=read_csv(datacsv,names=names)
+        #dataset=read_csv('data1.csv',names=names)
+        #dataset = DataFrame.from_dict(datas,orient='index',columns=names)
 
         le = preprocessing.LabelEncoder()
         for column_name in transet.columns:

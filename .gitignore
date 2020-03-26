@@ -1,0 +1,11 @@
+.idea/workspace.xml
+.history/.gitignore_20200325221236
+.history/.gitignore_20200325221237
+*.pyc
+*~
+/.vscode
+__pycache__
+myvenv
+db.sqlite3
+/static
+.DS_Store

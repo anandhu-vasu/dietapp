@@ -1,29 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+{% extends "dashboard.html" %}
+{% block head %}
     <link rel="stylesheet" href="/static/css/form.css">
     <script src="/static/js/jquery.min.js"></script>
     <script src="/static/js/form.js"></script>
-
-    <title>Find Your Personised Diet</title>
-</head>
-<body>
-    <main>
-    <header>
-        <div class="navbar">
-            <h1>Find Your Personised Diet</h1>
-            <p> A govt of Kerala Initative </p>
-        </div>
-    <h2>Give Us Some Information about you</h2>
-    </header>
-
-    <form name="dietform" action="/diet/" method="post" onsubmit="return onSubmit()">
+{% endblock head %}
+{% block title %}
+    Find Your Personised Diet
+{% endblock title %}
+{% block content %}
+    <h2>Hai {{ user.first_name }},<br> <small>Give Us Some Information to Plan Your Personalised Diet.</small></h2>
+    <form name="dietform" action="/dashboard/mydiet/" method="post" onsubmit="return onSubmit()">
         {% csrf_token %}
         <div class="info-container">
-            <div class="info-item" >
+            <div class="info-item" {% if last %}value="{{ last.gender }}" hidden{% endif %}>
                 Gender: <br>
                 <input type="radio" name="gender" value="Male" checked> Male |
                 <input type="radio" name="gender" value="Female"> Female |
@@ -31,19 +20,19 @@
             </div>
             <div class="info-item" >
                 Age <br>
-                <input type="text" name="age" maxlength="3" id="">
+                <input type="text" name="age" maxlength="3" id="" {% if last %}value="{{ last.age }}"{% endif %}>
             </div>
             <div class="info-item">
                 Height <br>
-                <input type="text" name="height" maxlength="10"  id="">cm
+                <input type="text" name="height" maxlength="10" {% if last %}value="{{ last.height }}"{% endif %}  id="">cm
             </div>
             <div class="info-item">
                 Weight <br>
-                <input type="text" name="weight" maxlength="10" id="">kg
+                <input type="text" name="weight" maxlength="10" {% if last %}value="{{ last.weight }}"{% endif %} id="">kg
             </div>
             <div class="info-item">
                 Diet Plan<br>
-                <select name="plan" >
+                <select name="diet_plan">
                     <option>Lose Weight</option>
                     <option>Balanced Diet</option>
                     <option>Weight Gain</option>
@@ -58,14 +47,14 @@
             </div>
             <div class="info-item">
                 Occupation<br>
-                <select name="occupation" >
+                <select name="occupation">
                     <option>Physical Work</option>
                     <option>Office Work</option>
                 </select>
             </div>
             <div class="info-item">
                 Do you have any Disease? <br>
-                <select name="disease" >
+                <select name="disease">
                     <option>Nope</option>
                     <option>Dibetics</option>
                     <option>Cancer</option>
@@ -82,12 +71,12 @@
                 <select name="allergy">
                     <option>Nope</option>
                     <option>Fish</option>
-                    <option>Egg</option>
+                    <option>Eggs</option>
                     <option>Milk</option>
                     <option>Tree Nuts</option>
                     <option>Soybeans</option>
-                       <option>Wheat</option>
-                       <option>Peanut</option>
+                    <option>Wheat</option>
+                    <option>Peanut</option>
 
                 </select>
             </div>
@@ -95,6 +84,4 @@
 
         </div>
     </form>
-    </main>
-</body>
-</html>
+{% endblock content %}

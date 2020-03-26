@@ -17,7 +17,6 @@ import pandas as pd
 from pandas import DataFrame
 from pandas import read_csv
 from pandas.io.json import json_normalize
-from io import StringIO
 
 from datetime import datetime
 from django.utils import timezone
@@ -148,13 +147,14 @@ def diet(request):
             occupation=data['occupation'],
             height=data['height'],
             weight=data['weight'],
-            diet_plan=data['plan'],
+            diet_plan=data['diet_plan'],
             veg=data['veg'],
             disease=data['disease'],
             allergy=data['allergy'],
         )
         form.save()
         user= request.user
+
         f=open("data1.csv","w")
         f.write(data['gender']+',')
         f.write(data['age']+',')
@@ -168,8 +168,12 @@ def diet(request):
         f.close()
 
         names = ['gender', 'age', 'occupation', 'height', 'weight', 'plan', 'veg', 'disease', 'allergy']
+        datas = {name: data[name] for name in names}
+        print(datas)
         transet = read_csv('dietapp/food.csv', names=names)
-        dataset=read_csv('data1.csv',names=names)
+        #dataset=read_csv('data1.csv',names=names)
+        
+        dataset = DataFrame.from_dict(datas)
 
         le = preprocessing.LabelEncoder()
         for column_name in transet.columns:

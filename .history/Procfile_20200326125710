@@ -1,0 +1,1 @@
+web: gunicorn arames.wsgi --log-file
