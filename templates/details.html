@@ -21,20 +21,20 @@
     
     <div class="info">
         <div class="diet-plan">Diet Plan : {{last.diet_plan}}</div>
-        <div class="height">Height : <b>{{last.height}}</b> cm <span>
+        <div class="height">Height : <b>{{last.height}}</b> cm <small>
         {% if diff.height > 0 %}
-            &#9650; {{diff.height}}
+            &#9650;{{diff.height}}cm
         {% elif diff.height < 0 %}
-            &#9660; {{diff.height}}
+            &#9660;{{diff.height}}cm
         {% endif %}
-            </span></div>
-        <div class="weight">Weight : <b>{{last.weight}}</b> kg <span>
+            </small></div>
+        <div class="weight">Weight : <b>{{last.weight}}</b> kg <small>
         {% if diff.weight > 0 %}
-            &#9650; {{diff.weight}}
+            &#9650;{{diff.weight}}kg
         {% elif diff.weight < 0 %}
-            &#9660; {{diff.weight}}
+            &#9660;{{diff.weight}}kg
         {% endif %}
-            </span></div>
+            </small></div>
         <div class="occupation">Occupation : <b>{{last.occupation}}</b> </div>
         
         {% if last.disease != 'Nope' %}

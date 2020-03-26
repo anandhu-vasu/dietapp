@@ -215,7 +215,7 @@ def diet(request):
                 if (last.breakfast == breakfast or last.lunch == lunch or last.dinner == dinner):
                     diet_status = "No need to Change the diet plan."
             return render(request,"mydiet.html",{'diet_status':diet_status,'fooddiet':fooddiet,**BMI(data['weight'],data['height'])})
-        return render(request, "diet.html",{'fooddiet':fooddiet,**BMI(data['weight'],data['height'])})
+        return render(request, "diet.html",{'fooddiet':fooddiet})
     return redirect('/form/')
 
 def error404(request,exception):

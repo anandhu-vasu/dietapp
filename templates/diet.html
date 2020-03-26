@@ -9,7 +9,6 @@
     <link rel="stylesheet" href="{% static 'css/diet.css' %}">
     <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
 </head>
 <body>
     <header>
@@ -58,17 +57,10 @@
                 </p>
             </div>
         </div>
-        <div class="plot-bmi">
-            {% autoescape off %}
-                {{ bmi_indicator }}
-            {% endautoescape %}
-            <p style="text-align: center;">{{ bmi_status }}</p>
-        </div>
         <br><br>
         <div class="map">
             <a href="https://www.google.com/maps/search/dietitian+near+me">
            <p> Find dietitian near me </p><img src="/static/img/map.png" alt=""></a>
-
         </div>
     </main>
 
