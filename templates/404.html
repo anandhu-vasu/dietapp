@@ -1,0 +1,34 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404</title>
+    <style>
+
+        body {
+            background-image: url("{% static 'img/p.png'%}");
+            background-position: inherit;
+            background-size: cover;
+        }
+        body div{
+            position:absolute;
+            left:50%;
+            top:50%;
+            transform:translate(-50%,-50%);
+            padding:20px;
+            border-radius:5px;
+            background:dimgrey;
+            box-shadow:0 0 5px dimgrey;
+            text-align:center;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>404</h1>
+        <p>NOT FOUND</p>
+    </div>
+</body>
+</html>

@@ -16,7 +16,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from django.urls import include
+from django.conf.urls import handler404
 from dietapp import views
+
 urlpatterns = [
     path('', views.index, name='index'),
     path('',include('django.contrib.auth.urls')),
@@ -27,3 +29,4 @@ urlpatterns = [
     path('dashboard/',views.dashboard,name='dashboard'),
     path('dashboard/<slug:nav>/',views.dashboard,name='dashboard'),
 ]
+handler404 = 'dietapp.views.error404'

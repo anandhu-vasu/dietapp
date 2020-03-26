@@ -218,3 +218,5 @@ def diet(request):
         return render(request, "diet.html",{'fooddiet':fooddiet,**BMI(data['weight'],data['height'])})
     return redirect('/form/')
 
+def error404(request,exception):
+    return render(request,"404.html")
