@@ -206,7 +206,7 @@ def diet(request):
                 occupation=data['occupation'],
                 height=data['height'],
                 weight=data['weight'],
-                diet_plan=data['diet_plan'],
+                diet_plan=data['plan'],
                 veg=data['veg'],
                 disease=data['disease'],
                 allergy=data['allergy'],
