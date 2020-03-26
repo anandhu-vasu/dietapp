@@ -70,7 +70,7 @@ def dashboard(request,nav=None):
                         hovertemplate="%{y} Kg on  %{x}",
                     )],
                     output_type='div',
-                    # include_plotlyjs=False,
+                    include_plotlyjs=False,
                     show_link=False,
                     link_text="",
                 )

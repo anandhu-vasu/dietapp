@@ -32,7 +32,7 @@ def BMI(weight,height,plotit=True):
                 },
             )],
             output_type='div',
-            # include_plotlyjs=False,
+            include_plotlyjs=False,
             show_link=False,
             link_text="",
         )
