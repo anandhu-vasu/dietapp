@@ -154,7 +154,7 @@ def diet(request):
         )
         form.save()
         user= request.user
-        f=open("static/csv/data.csv","w")
+        f=open("dietapp/csv/data.csv","w")
         f.write(data['gender']+',')
         f.write(data['age']+',')
         f.write(data['occupation']+',')
@@ -167,8 +167,8 @@ def diet(request):
         f.close()
 
         names = ['gender', 'age', 'occupation', 'height', 'weight', 'plan', 'veg', 'disease', 'allergy']
-        transet = read_csv('static/csv/food.csv', names=names)
-        dataset=read_csv('static/csv/data.csv',names=names)
+        transet = read_csv('dietapp/csv/food.csv', names=names)
+        dataset=read_csv('dietapp/csv/data.csv',names=names)
 
         le = preprocessing.LabelEncoder()
         for column_name in transet.columns:

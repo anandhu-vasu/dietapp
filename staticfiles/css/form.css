@@ -1,24 +1,19 @@
-body{
-    background: linear-gradient(90deg, #40E0D0,#FF8C00,#FF0080);
-    /*background: url("bg.png") no-repeat;
-    background-size: cover;
-    background-position: center;*/
+body {
+    background: linear-gradient(90deg, #40e0d0, #ff8c00, #ff0080);
     text-align: center;
     background-size: 200% 100%;
     animation: bg 10s ease-in-out infinite;
     -webkit-animation: bg 10s ease-in-out infinite;
 }
 .navbar {
-        text-align: center;
-        font-family: "Amaranth";
-        color: rgb(224, 8, 44);
-    }
-.info-container{
-    
-    margin: 5vh 10vw;
-
+    text-align: center;
+    font-family: "Amaranth";
+    color: rgb(224, 8, 44);
 }
-.info-item{
+.info-container {
+    margin: 5vh 10vw;
+}
+.info-item {
     color: #240b36;
     padding: 5px;
     margin: 5vh 0vw;
@@ -35,15 +30,17 @@ body{
     -ms-transition: all 0.5s;
     -o-transition: all 0.5s;
 }
-.info-item input,.info-item select{
+.info-item input,
+.info-item select {
     margin: 1vh 0;
 }
 
-.info-item input[type=text],.info-item select{
+.info-item input[type="text"],
+.info-item select {
     background-color: transparent;
     border: 0;
     background-color: rgba(36, 32, 32, 0.322);
-    border-bottom:  2px solid transparent;
+    border-bottom: 2px solid transparent;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -51,12 +48,12 @@ body{
     -o-border-radius: 2px;
     padding: 2px;
 }
-.info-item input[type=text]:focus{
+.info-item input[type="text"]:focus {
     border-bottom-color: #240b36;
 }
 
-.info-item select option{
-    background-color: #FF4B2B;
+.info-item select option {
+    background-color: #ff4b2b;
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
@@ -64,8 +61,8 @@ body{
     -o-border-radius: 2px;
 }
 
-.info-container input[type=submit]{
-    background:#009FFF;
+.info-container input[type="submit"] {
+    background: #009fff;
     border: none;
     border-radius: 5px;
     padding: 5px;
@@ -75,17 +72,17 @@ body{
     -o-border-radius: 5px;
 }
 
-.empty{
+.empty {
     background: azure;
     box-shadow: 0 0 10px crimson;
 }
 
-.valid{
-    background: linear-gradient(to right,#00b09b,#96c93d);
+.valid {
+    background: linear-gradient(to right, #00b09b, #96c93d);
     box-shadow: 0 0 10px #1d6934;
 }
 
-.center{
+.center {
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
@@ -95,23 +92,33 @@ body{
     -o-transform: translateX(-50%);
 }
 
-@keyframes bg{
-    0%{background-position:25% 50%}
-    50%{background-position:100% 50%}
-    100%{background-position:25% 50%}
+@keyframes bg {
+    0% {
+        background-position: 25% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 25% 50%;
+    }
 }
-main h2{
+main h2 {
     color: yellowgreen;
     text-shadow: 0 0 5px black;
     text-transform: capitalize;
 }
-main small{
+main small {
     color: white;
 }
-main *{
-        animation: fadein 1s;
+main * {
+    animation: fadein 1s;
 }
 @keyframes fadein {
-    from{opacity: 0.25;}
-    to{opacity: 1;}
+    from {
+        opacity: 0.25;
+    }
+    to {
+        opacity: 1;
+    }
 }
