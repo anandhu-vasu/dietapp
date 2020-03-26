@@ -42,6 +42,8 @@ def signup(request):
             form.save()
             messages.success(request,"Account created successfully")
             return redirect('/login/')
+    else:
+        form = SignUpForm()
     return render(request, 'registration/signup.html', {'form':form})
 
 
@@ -219,4 +221,6 @@ def diet(request):
     return redirect('/form/')
 
 def error404(request,exception):
-    return render(request,"404.html")
+    return render(request, "404.html")
+def error500(request):
+    return render(request,"500.html")

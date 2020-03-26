@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path
 from django.urls import include
 from dietapp import views
-from django.conf.urls import handler404
+from django.conf.urls import handler404,handler500
 
 urlpatterns = [
     path('', views.index, name='index'),
@@ -30,3 +30,4 @@ urlpatterns = [
     path('dashboard/<slug:nav>/',views.dashboard,name='dashboard'),
 ]
 handler404 = 'dietapp.views.error404'
+handler500 = 'dietapp.views.error500'
