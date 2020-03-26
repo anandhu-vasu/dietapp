@@ -1,3 +1,4 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 
@@ -5,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index</title>
-    <link rel="stylesheet" href="/static/css/index.css">
+    <link rel="stylesheet" href="{% static 'css/index.css' %}">
     <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
 </head>
@@ -48,7 +49,7 @@
                 <h5>Exercise Regularly</h5>
                 <br>
                 <br>
-                <img src="/static/img/1.png" alt="">
+                <img src="{% static 'img/1.png' %}" alt="">
                <p class="plo">
                      Get at least 150 minutes a week of moderate aerobic activity or 75 minutes a week of vigorous aerobic activity.You also can do a combination of moderate and vigorous activity.Guidelines suggest that you spread out this exercise during course of a week.
                </p>
@@ -59,7 +60,7 @@
                 <h5> Drink Lots of Water</h5>
                 <br>
                 <br>
-                <img src="/static/img/2.png" alt="">
+                <img src="{% static 'img/2.png' %}" alt="">
                 <p  class="plo" >
                         It helps flush our systems of waste products and toxins, yet many people go through life dehydrated causing tiredness, low energy, and headaches. It’s common to mistake thirst for hunger,so staying well hydrated will also help you make healthier food choices.
                 </p>
@@ -69,7 +70,7 @@
                 <h5>Eat Healthy Food</h5>
                 <br>
                 <br>
-                <img src="/static/img/3.png" alt="">
+                <img src="{% static 'img/3.png' %}" alt="">
                 <p class="plo">
                         Eating a healthy, balanced diet provides nutrients to your body. These nutrients give you energy and keep your heart beating, your brain active, and your muscles working. Nutrients also help build and strengthen bones, muscles, and tendons and also regulate body processes, such as blood pressure.
                 </p>
@@ -79,10 +80,10 @@
             <br><br><br>
             <h2>Refer To The undergiven Departments of Food for more Info.</h2>
             <br>
-            <a href="https://www.fssai.gov.in/"><img src="/static/img/7.png" alt=""></a>
-            <a href="https://foodsafety.kerala.gov.in/ardrams-peoples-campaign/"><img src="/static/img/5.png" alt=""></a>
-            <a href="http://fci.gov.in/"><img src="/static/img/6.png"></a>
-            <a href="http://www.arogyakeralam.gov.in/"><img src="/static/img/4.png"></a>
+            <a href="https://www.fssai.gov.in/"><img src="{% static 'img/7.png' %}" alt=""></a>
+            <a href="https://foodsafety.kerala.gov.in/ardrams-peoples-campaign/"><img src="{% static 'img/5.png' %}" alt=""></a>
+            <a href="http://fci.gov.in/"><img src="{% static 'img/6.png' %}"></a>
+            <a href="http://www.arogyakeralam.gov.in/"><img src="{% static 'img/4.png' %}"></a>
 
 
         </div>
@@ -91,8 +92,8 @@
         All credits recevied to govt of Kerala
     </footer>-->
  <div class="map">
-            <a href="https://www.google.com/maps/search/dietitian+near+me/@9.7027207,76.1984471,11z/data=!4m3!2m2!5m1!4e9">
-           <p> find dietitian near me </p><img src="map.png" alt=""></a>
+            <a href="https://www.google.com/maps/search/dietitian+near+me">
+           <p> find dietitian near me </p><img src="{% static 'img/map.png' %}" alt=""></a>
 
         </div>
 

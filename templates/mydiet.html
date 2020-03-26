@@ -1,10 +1,10 @@
 {% extends "dashboard.html" %}
+{% load static %}
     {% block title %}
         Currrent Diet
     {% endblock title %}
-    <link rel="stylesheet" href="/static/css/diet.css">
     {% block head %}
-    <link rel="stylesheet" href="/static/css/mydiet.css">
+    <link rel="stylesheet" href="{% static 'css/mydiet.css' %}">
     {% endblock head %}
 
     {% block content %}

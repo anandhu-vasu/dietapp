@@ -1,8 +1,9 @@
 {% extends "dashboard.html" %}
+{% load static %}
 {% block head %}
-    <link rel="stylesheet" href="/static/css/form.css">
-    <script src="/static/js/jquery.min.js"></script>
-    <script src="/static/js/form.js"></script>
+    <link rel="stylesheet" href="{% static 'css/form.css' %}">
+    <script src="{% static 'js/jquery.min.js' %}"></script>
+    <script src="{% static 'js/form.js' %}"></script>
 {% endblock head %}
 {% block title %}
     Find Your Personised Diet

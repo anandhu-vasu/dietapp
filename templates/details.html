@@ -1,11 +1,11 @@
 {% extends 'dashboard.html' %}
-
+{% load static %}
 {% block title %}
     Details
 {% endblock title %}
     
 {% block head %}
-    <link rel="stylesheet" href="/static/css/details.css">
+    <link rel="stylesheet" href="{% static 'css/details.css' %}">
 {% endblock head %}
 
 {% block content %}

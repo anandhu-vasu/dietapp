@@ -1,6 +1,7 @@
 {% extends "dashboard.html" %}
+{% load static %}
 {% block head %}
-    <link rel="stylesheet" href="/static/css/home.css">
+    <link rel="stylesheet" href="{% static 'css/home.css' %}">
 {% endblock head %}
 {% block title %}
     Home
